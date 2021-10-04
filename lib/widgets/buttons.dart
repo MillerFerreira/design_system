@@ -24,10 +24,10 @@ class Buttons extends StatelessWidget {
     required this.onTap,
   }) : this.style = kLight, this.isActive = true;
 
-  /*const Buttons.exit() :
+  const Buttons.exit() :
         this.style = kLight,
         this.isActive = true,
-        this.onTap = null, this.label = "SAINDO!";*/
+        this.onTap = null, this.label = "SAINDO!";
 
   @override
   Widget build(BuildContext context) {
